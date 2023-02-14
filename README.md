@@ -44,13 +44,13 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 -	 El retardo de propagación de apagado de bajo a alto (TPLH) y retardo de propagación de apagado de alto a bajo (TPHL) se refieren al tiempo que tarda una señal en pasar de un estado bajo a un estado alto y viceversa. Estos tiempos son importantes para determinar el rendimiento de los circuitos digitales, ya que pueden afectar la velocidad y la precisión de las señales que se transmiten.
 
-	+ El tiempo de transición se utiliza para describir el tiempo que tarda una señal en pasar de un nivel de voltaje a otro. Hay tres definiciones de uso común de tiempo de transición en la electrónica digital:
++ 	El tiempo de transición se utiliza para describir el tiempo que tarda una señal en pasar de un nivel de voltaje a otro. Hay tres definiciones de uso común de tiempo de transición en la electrónica digital:
 
-	+ Tiempo de transición total (tt): El tiempo de transición total es el tiempo que tarda el nivel de voltaje de una señal en pasar de un nivel de voltaje a otro. Esto a menudo se define como la suma del tiempo de subida y el tiempo de caída y se usa para describir la tasa general de cambio de una señal.
++	Tiempo de transición total (tt): El tiempo de transición total es el tiempo que tarda el nivel de voltaje de una señal en pasar de un nivel de voltaje a otro. Esto a menudo se define como la suma del tiempo de subida y el tiempo de caída y se usa para describir la tasa general de cambio de una señal.
 
-	+ Tiempo de subida (tr): El tiempo de subida es el tiempo que tarda el nivel de tensión de una señal en pasar del 10 % al 90 % de su valor final. Esto se usa a menudo para describir la tasa de cambio de una señal y es un factor clave para determinar el ancho de banda de un circuito digital.
++	Tiempo de subida (tr): El tiempo de subida es el tiempo que tarda el nivel de tensión de una señal en pasar del 10 % al 90 % de su valor final. Esto se usa a menudo para describir la tasa de cambio de una señal y es un factor clave para determinar el ancho de banda de un circuito digital.
 
-	+ Tiempo de caída (tf): El tiempo de caída es el tiempo que tarda el nivel de voltaje de una señal en pasar del 90 % al 10 % de su valor final. Al igual que el tiempo de subida, el tiempo de caída se utiliza para describir la tasa de cambio de una señal y es un factor clave para determinar el ancho de banda de un circuito digital.
++	Tiempo de caída (tf): El tiempo de caída es el tiempo que tarda el nivel de voltaje de una señal en pasar del 90 % al 10 % de su valor final. Al igual que el tiempo de subida, el tiempo de caída se utiliza para describir la tasa de cambio de una señal y es un factor clave para determinar el ancho de banda de un circuito digital.
 
 
 ## Pregunta 6:
