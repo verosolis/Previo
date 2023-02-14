@@ -40,9 +40,9 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 **Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
 
--El tiempo de propagación que se puede abreviar como tPD se refiere al tiempo que tarda una señal en viajar a través de un medio de transmisión, como un cable o una guía de ondas, de un punto a otro. El valor exacto de tPD depende de las propiedades del medio.
+-	El tiempo de propagación que se puede abreviar como tPD se refiere al tiempo que tarda una señal en viajar a través de un medio de transmisión, como un cable o una guía de ondas, de un punto a otro. El valor exacto de tPD depende de las propiedades del medio.
 
-	+ El retardo de propagación de apagado de bajo a alto (TPLH) y retardo de propagación de apagado de alto a bajo (TPHL) se refieren al tiempo que tarda una señal en pasar de un estado bajo a un estado alto y viceversa. Estos tiempos son importantes para determinar el rendimiento de los circuitos digitales, ya que pueden afectar la velocidad y la precisión de las señales que se transmiten.
+-	 El retardo de propagación de apagado de bajo a alto (TPLH) y retardo de propagación de apagado de alto a bajo (TPHL) se refieren al tiempo que tarda una señal en pasar de un estado bajo a un estado alto y viceversa. Estos tiempos son importantes para determinar el rendimiento de los circuitos digitales, ya que pueden afectar la velocidad y la precisión de las señales que se transmiten.
 
 	+ El tiempo de transición se utiliza para describir el tiempo que tarda una señal en pasar de un nivel de voltaje a otro. Hay tres definiciones de uso común de tiempo de transición en la electrónica digital:
 
