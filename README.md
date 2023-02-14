@@ -26,7 +26,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 **Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
-	**VIL:** Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
+	*VIL:* Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
 	**VIH:** High-Level Input Voltage, es el máximo voltaje que una entrada digital puede tener para ser reconocida como un Alto/High/Uno
 	**VOL:** Low-Level Output voltage, es el mínimo voltaje que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero
 	**VOH:** High-Level Output Voltage, es el máximo voltaje que una salida digital puede tener para ser reconocida como un Alto/High/Uno
