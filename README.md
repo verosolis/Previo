@@ -1,6 +1,6 @@
 # Cuestionario Previo
 
-##Pregunta 1:
+## Pregunta 1:
 
 	**Investigue las características de las familias TTL bajo las series 74∗xx en particular las diferencias entre las variantes ∗ ∈ {L, LS y HC}.**
 
@@ -9,20 +9,20 @@ La principal diferencia entre los 74L y 74LS es que el Low-power shotcky, es el 
 
 
 
-##Pregunta 2:
+## Pregunta 2:
 
 	**Investigue las características de la familia CMOS 4000.**
  
 La familia CMOS 4000 tiene un supply de 3 a 15V, donde sus entradas son de alta impedancia.
 Tiene un output pequeño de alrededor de 1mA, esto para mantener un outup de voltaje correcto para manejar el input, pero si esto no necesario, su máximo es de 5mA con un suministro de 6V o 10mA a 9V. Posee Fan-out de hasta 50 inputs y un tiempo de propagación en el gate de 30ns con una entrada de 9V. Su frecuencia va hasta 1MHz y su consumo en baja frecuencias esta en los µW, mientras que a altas frecuencias se ubica en los mW.
 
-##Pregunta 3:
+## Pregunta 3:
 
 	**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
 
 Al manipular estos dispositivos tenemos que tener en cuenta: protección electroestática (ESD protection), si vamos a manejar estos dispositivos que el suministro este apagado para prevenir danos por pico eléctricos o cortos, que los dispositivos estén limpios ya que son susceptibles a la contaminación, esto va de mano con un buen manejo al empacarlos y guardarlos, que sea en lugares no húmedos, tener cuidado con los pines ya que esto puede dañarlo por completo y cuidar la exposición al calor, ya que esto puede reducir la vida útil del dispositivo.
 
-#Pregunta 4: 
+## Pregunta 4: 
 
 	**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
@@ -49,7 +49,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 	+ Tiempo de caída (tf): El tiempo de caída es el tiempo que tarda el nivel de voltaje de una señal en pasar del 90 % al 10 % de su valor final. Al igual que el tiempo de subida, el tiempo de caída se utiliza para describir la tasa de cambio de una señal y es un factor clave para determinar el ancho de banda de un circuito digital.
 
 
-##Pregunta 6:
+## Pregunta 6:
 
 	**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
 
@@ -57,11 +57,11 @@ Fan-out se refiere al número máximo de cargas que una salida digital puede man
 de la señal de salida. Es una medida de la fuerza de la unidad de salida de un dispositivo digital y es un parámetro importante en el diseño de circuitos digitales. El fan-out se especifica en términos de la cantidad máxima de cargas equivalentes que puede manejar una salida digital. Una carga equivalente se define como una carga con una impedancia y capacitancia específicas que representa una carga estándar que puede ser impulsada por la salida. En términos prácticos, el fan-out es importante en el diseño de circuitos digitales porque determina cuántas cargas puede manejar una salida digital sin afectar el nivel de voltaje de la señal de salida
 Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transistor Logic) y CMOS (Complementary Metal-Oxide-Semiconductor) pueden variar ampliamente según el dispositivo específico y las condiciones de funcionamiento. Sin embargo, las siguientes son pautas generales para el fan-out en estos dos tipos de circuitos digitales:
 
->**TTL:** la distribución de los dispositivos TTL suele ser de 10 a 20 cargas. Esto significa que una salida TTL puede controlar de 10 a 20 entradas TTL más sin afectar el nivel de voltaje de la señal de salida. 
->**CMOS:**  la distribución de los dispositivos CMOS suele ser mucho mayor que la de los dispositivos TTL, con valores que van de 50 a 100 o más. Esto se debe al bajo consumo de energía y la alta impedancia de entrada de los dispositivos CMOS, que les permiten manejar muchas más cargas sin afectar el nivel de voltaje de la señal de salida. Los dispositivos CMOS se utilizan ampliamente en circuitos digitales que requieren un bajo consumo de energía y una gran distribución, como los microprocesadores y los circuitos de memoria.
+> **TTL:** la distribución de los dispositivos TTL suele ser de 10 a 20 cargas. Esto significa que una salida TTL puede controlar de 10 a 20 entradas TTL más sin afectar el nivel de voltaje de la señal de salida. 
+> **CMOS:**  la distribución de los dispositivos CMOS suele ser mucho mayor que la de los dispositivos TTL, con valores que van de 50 a 100 o más. Esto se debe al bajo consumo de energía y la alta impedancia de entrada de los dispositivos CMOS, que les permiten manejar muchas más cargas sin afectar el nivel de voltaje de la señal de salida. Los dispositivos CMOS se utilizan ampliamente en circuitos digitales que requieren un bajo consumo de energía y una gran distribución, como los microprocesadores y los circuitos de memoria.
 
 
-##Pregunta 7:
+## Pregunta 7:
 
 **Para cada una de las variantes TTL y CMOS especifique en una tabla: a) rango de tensión eléctrica de alimentación VCC o VDD, VSS b) rango de tensiones de entrada y salida c) tiempos de propagación y transición **
 
@@ -72,21 +72,26 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 |VCC o VDD|5 V|3-18 V|
 |VSS|0 V|0 V|
 |Tiempo de propagación (tPD)|En el rango de varios nanosegundos a decenas de nanosegundos| En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos|
+|Tiempo de transición (tt)| En el rango de varios nanosegundos a decenas de nanosegundos |En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos|
 
-Tiempo de transición (tt)| En el rango de varios nanosegundos a decenas de nanosegundos |En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos|
 
+## Pregunta 8:
 
-8. Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.
-1. 74x00: La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-2. 74x02: La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-3. 74x04: La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
-4. 74x14: La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
-5. 4001: El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-6. 4011: El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-7. 4069: El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
-8. 40106: El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
-Pregunta 9:  Revise la estructura básica, a nivel de transistores, de una compuerta NAND
-en circuitos integrados CMOS
+	**Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.**
+
+	*	1. 74x00: La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	*	2. 74x02: La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	*	3. 74x04: La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
+	*	4. 74x14: La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	*	5. 4001: El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	*	6. 4011: El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	*	7. 4069: El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
+	*	8. 40106: El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	
+
+## Pregunta 9: 
+
+	**Revise la estructura básica, a nivel de transistores, de una compuerta NAND en circuitos integrados CMOS**
 
 
 Una compuerta NAND se caracteriza por ser la negación de la compuerta AND; es decir, que cuando el comportamiento AND da como resultado un 1, el NAND lo transforma a un 0.Esto se debe cumplir para la misma combinación de entradas en ambas compuertas. 
@@ -104,8 +109,9 @@ los transistores N se establece en serie; por lo que en los tipo P se conectan e
 	Pegar fotos de la fig 1.33 pag 54 pdf harris & harris
 	
 	
-Pregunta 10: Investigue sobre el concepto y el uso de los de circuitos pull-up y pull-down 
-en electrónica digital.
+## Pregunta 10: 
+
+	**Investigue sobre el concepto y el uso de los de circuitos pull-up y pull-down en electrónica digital.**
 
 Las compuertas lógicas se caracterizan por ser dispositivos que necesitan señales constantes, ya que tienen áreas de trabajo. Lo que provoca que cada tecnología sea sensible a cambios en las señales. Se conoce que cada compuerta lógica se desarrolla con configuraciones de transistores, lo que implica que cada uno de estos transistores debe trabajar en sus zonas correctas y así interpretar correctamente la entrada para suposterior salida.
 	
@@ -123,50 +129,49 @@ El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0.
 	Ambas configuraciones permiten que dispositivos como Arduinos o FPGAs sean capaces de comunicarse con periféricos, y de una forma estable entre valores constantes de señales en alto o bajo.
 	
 	
-	
-
 		
-Pregunta 11: Investigue qué es un circuito disparador Schmitt (Schmitt trigger). Revise las características técnicas del circuito 74*14
+## Pregunta 11:
+
+	**Investigue qué es un circuito disparador Schmitt (Schmitt trigger). Revise las características técnicas del circuito 74*14**
 
 
-	El Circuito Disparador Schmitt consiste en un circuito de entrada lógica; el cual proporciona dos 
-	diferentes niveles de voltajes umbral, tanto para las secciones de alto y bajo.Lo que genera una señal 
-	con dichos niveles definidos y poco afectada por ruido.
+El Circuito Disparador Schmitt consiste en un circuito de entrada lógica; el cual proporciona dos diferentes niveles de voltajes umbral, tanto para las secciones de alto y bajo.Lo que genera una señal con dichos niveles definidos y poco afectada por ruido.
 	
-	Para las características técnicas del circuito 74*14, se toma como referencia la compuerta inversora 74HC14.
-	Esta utiliza el circuito de Schmitt para entablar los niveles y que las señales no se intervcalen entre
-	los niveles lógicos TTL del dispositivo. Además de eliminar la adhesión de ruido a la misma señal tratada. 
+Para las características técnicas del circuito 74x14, se toma como referencia la compuerta inversora 74HC14. Esta utiliza el circuito de Schmitt para entablar los niveles y que las señales no se intervcalen entre los niveles lógicos TTL del dispositivo. Además de eliminar la adhesión de ruido a la misma señal tratada. 
 	
 	
 	https://c1555f5ec9.clvaw-cdnwnd.com/34662fcf1f1e607c561442431023ac8e/200006185-95b2196ab9/74HC14%20Datasheet.pdf
 	
 	
-	Pregunta 12: Investigue qué es el efecto de rebote y típicos circuitos anti-rebote (debouncing circuits)
-	
-	El efecto rebote se debe a que en la práctica y con elementos físicos, no es posible obtener un voltaje limpio  desde un interruptor; pues consiste en la acción de movimiento desde una posición a otra. Donde el voltaje se transfiere
-	de manera intermitente hasta que se establezca en la posición selecciona. Aunque su duración no es perceptible, existen 
-	aplicaciones donde ese tiempo es lo suficiente para un mal funcionamiento.
-	
-	Para lograr el mejor rendimiento de cualquier interruptor y no verse afectado por el rebote de los circuitos;
-	existen los circuitos anti-rebote y se ven manifestados por un comportamiento con memoria. Un ejemplo de estos
-	son los latch o flip-flops, pues son capaces de tener un valor en salida durante el tiempo de variación de su entrada, 
-	hasta que se estabilice.libro sistemas digitales pag pdf 242-243
+## Pregunta 12: 
 
-Pregunta 13. Explique qué es el modelado de comportamiento y de estructura en diseño digital. Brinde un ejemplo de cada uno. Explique qué es el modelado de comportamiento y de estructura en diseño digital. Brinde un ejemplo de cada uno.
+**Investigue qué es el efecto de rebote y típicos circuitos anti-rebote (debouncing circuits)**
+	
+El efecto rebote se debe a que en la práctica y con elementos físicos, no es posible obtener un voltaje limpio  desde un interruptor; pues consiste en la acción de movimiento desde una posición a otra. Donde el voltaje se transfiere de manera intermitente hasta que se establezca en la posición selecciona. Aunque su duración no es perceptible, existen aplicaciones donde ese tiempo es lo suficiente para un mal funcionamiento.
+	
+Para lograr el mejor rendimiento de cualquier interruptor y no verse afectado por el rebote de los circuitos;existen los circuitos anti-rebote y se ven manifestados por un comportamiento con memoria. Un ejemplo de estos son los latch o flip-flops, pues son capaces de tener un valor en salida durante el tiempo de variación de su entrada, hasta que se estabilice.libro sistemas digitales pag pdf 242-243
+
+## Pregunta 13:
+
+**Explique qué es el modelado de comportamiento y de estructura en diseño digital. Brinde un ejemplo de cada uno. Explique qué es el modelado de comportamiento y de estructura en diseño digital. Brinde un ejemplo de cada uno.**
 
 El modelado estructural consiste en describir un módulo utilizando los componentes básicos como compuertas lógicas. Por ejemplo, diseñar un “Half-adder” utilizando una compuerta XOR y una AND.
 
 El modelado por comportamiento se refiere a describir un módulo basándose en su comportamiento, como con una tabla de verdad, y utilizando estructuras como if o case. Por ejemplo, modelar un multiplexor basado en su comportamiento, sin considerar las compuertas necesarias para desarrollarlo.
 
-Pregunta 14. Explique el proceso de síntesis lógica en el diseño de circuitos digitales, tanto para el desarrollo de un ASIC como para una FPGA.
+## Pregunta 14.
+
+**Explique el proceso de síntesis lógica en el diseño de circuitos digitales, tanto para el desarrollo de un ASIC como para una FPGA.**
 
 La síntesis lógica consiste en el proceso de tomar un diseño en alto nivel e implementarlo a bajo nivel, con elementos fundamentales. Por ejemplo, Vivado transforma el diseño en alto nivel (SystemVerilog) en un diseño RTL, el cual es implementado en una FPGA o ASIC.
 
-Pregunta 15. Investigue sobre la tecnología de FPGAs. Describa el funcionamiento de la lógica programable en general, así como los componentes básicos de una.
+## Pregunta 15:
+
+**Investigue sobre la tecnología de FPGAs. Describa el funcionamiento de la lógica programable en general, así como los componentes básicos de una.**
 
 Una FPGA consiste que permite implementar diseños de circuitos digitales descritos en un leguaje de descripción de Hardware, conocidos como HDL. Entre los componentes básicos de una FPGA se encuentran los puertos de entrada y de salida, RAM, relojes, registros, PCI, bloques lógicos combinacionales…
 
-#Referencias
+# Referencias
 harris / harrris
 http://www.elecdude.com/2014/07/differences-in-cmos-4000-series-74ls-74hc-74hct.html
 https://www.circuitbasics.com/pull-up-and-pull-down-resistors/
