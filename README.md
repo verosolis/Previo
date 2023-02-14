@@ -60,12 +60,13 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 **Para cada una de las variantes TTL y CMOS especifique en una tabla: a) rango de tensión eléctrica de alimentación VCC o VDD, VSS b) rango de tensiones de entrada y salida c) tiempos de propagación y transición **
 
 
-|	TTL |	CMOS	|
-|-----------------------------|
-|	VCC o VDD	|	5 V	|	3-18 V	|
-|-----------------------------|
-|	VSS	|0 V	|	0 V	|
-|-----------------------------|
+
+|TTL |CMOS|
+|------------|-----------------|
+|VCC o VDD|5 V|3-18 V|
+|-------------|----------------|
+|VSS|0 V|0 V|
+|--------------|---------------|
 
 
 Tiempo de propagación 
