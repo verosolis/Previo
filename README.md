@@ -26,11 +26,11 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 **Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
-	+ VIL: Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
-	+ VIH: High-Level Input Voltage, es el máximo voltaje que una entrada digital puede tener para ser reconocida como un Alto/High/Uno
-	+ VOL: Low-Level Output voltage, es el mínimo voltaje que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero
-	+ VOH: High-Level Output Voltage, es el máximo voltaje que una salida digital puede tener para ser reconocida como un Alto/High/Uno
-	+IIK e IOK: No aparece información en la literatura o en el internet acerca de IOK o el IIK. Sin embargo, podemos tomarlos como, IIL (Low-Level Input Current) y IIH (High-Level Input Current) son el mínimo y el máximo de corriente, respectivamente, que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno. También, IOL (Low-Level Output Current) y IOH (High-Level Output Current) son el mínimo y el máximo de corriente, respectivamente, que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno.
+	+ **VIL:** Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
+	+ **VIH:** High-Level Input Voltage, es el máximo voltaje que una entrada digital puede tener para ser reconocida como un Alto/High/Uno
+	+ **VOL:** Low-Level Output voltage, es el mínimo voltaje que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero
+	+ **VOH:** High-Level Output Voltage, es el máximo voltaje que una salida digital puede tener para ser reconocida como un Alto/High/Uno
+	+ **IIK e IOK:** No aparece información en la literatura o en el internet acerca de IOK o el IIK. Sin embargo, podemos tomarlos como, IIL (Low-Level Input Current) y IIH (High-Level Input Current) son el mínimo y el máximo de corriente, respectivamente, que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno. También, IOL (Low-Level Output Current) y IOH (High-Level Output Current) son el mínimo y el máximo de corriente, respectivamente, que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno.
 
 ## Pregunta 5: 
 
@@ -80,14 +80,14 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 **Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.**
 
-	1. 74x00: La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-	2. 74x02: La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-	3. 74x04: La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
-	4. 74x14: La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
-	5. 4001: El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-	6. 4011: El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-	7. 4069: El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
-	8. 40106: El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	1. **74x00:** La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	2. **74x02:** La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	3. **74x04:** La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
+	4. **74x14:** La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	5. **4001:** El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	6. **4011:** El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	7. **4069:** El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
+	8. **40106:** El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
 	
 
 ## Pregunta 9: 
@@ -127,7 +127,7 @@ El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0.
 	
 	
 	
-	Ambas configuraciones permiten que dispositivos como Arduinos o FPGAs sean capaces de comunicarse con periféricos, y de una forma estable entre valores constantes de señales en alto o bajo.
+Ambas configuraciones permiten que dispositivos como Arduinos o FPGAs sean capaces de comunicarse con periféricos, y de una forma estable entre valores constantes de señales en alto o bajo.
 	
 	
 		
