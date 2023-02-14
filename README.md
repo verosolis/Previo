@@ -2,7 +2,7 @@
 
 ## Pregunta 1:
 
-	**Investigue las características de las familias TTL bajo las series 74∗xx en particular las diferencias entre las variantes ∗ ∈ {L, LS y HC}.**
+**Investigue las características de las familias TTL bajo las series 74∗xx en particular las diferencias entre las variantes ∗ ∈ {L, LS y HC}.**
 
  Es una familia de circuitos integrados transistor-transistor lógicos, el cual por su bajo costo gano mucha popularidad en el mercado y en el grado militar. Estos al paso de los anos dieron el paso a incluir el soporte de  tecnología CMOS de bajo consumo. En tiempos más actuales, son usados comúnmente por su facilidad de montar en una breadboard, lo cual lo vuelve un excelente candidato para estudiantes. La serie 7400 contiene cientos de compuertas lógicas básicas, flip-flops y hasta ALU.
 La principal diferencia entre los 74L y 74LS es que el Low-power shotcky, es el más bajo consumo y velocidades más rápidas y que el 74L es una tecnología obsoleta, sin embargo, el 74HC es un CMOS de más velocidad y menor consumo, aparte de ser más nuevo.
@@ -11,20 +11,20 @@ La principal diferencia entre los 74L y 74LS es que el Low-power shotcky, es el 
 
 ## Pregunta 2:
 
-	**Investigue las características de la familia CMOS 4000.**
+**Investigue las características de la familia CMOS 4000.**
  
 La familia CMOS 4000 tiene un supply de 3 a 15V, donde sus entradas son de alta impedancia.
 Tiene un output pequeño de alrededor de 1mA, esto para mantener un outup de voltaje correcto para manejar el input, pero si esto no necesario, su máximo es de 5mA con un suministro de 6V o 10mA a 9V. Posee Fan-out de hasta 50 inputs y un tiempo de propagación en el gate de 30ns con una entrada de 9V. Su frecuencia va hasta 1MHz y su consumo en baja frecuencias esta en los µW, mientras que a altas frecuencias se ubica en los mW.
 
 ## Pregunta 3:
 
-	**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
+**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
 
 Al manipular estos dispositivos tenemos que tener en cuenta: protección electroestática (ESD protection), si vamos a manejar estos dispositivos que el suministro este apagado para prevenir danos por pico eléctricos o cortos, que los dispositivos estén limpios ya que son susceptibles a la contaminación, esto va de mano con un buen manejo al empacarlos y guardarlos, que sea en lugares no húmedos, tener cuidado con los pines ya que esto puede dañarlo por completo y cuidar la exposición al calor, ya que esto puede reducir la vida útil del dispositivo.
 
 ## Pregunta 4: 
 
-	**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
+**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
 	+ VIL: Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
 	+ VIH: High-Level Input Voltage, es el máximo voltaje que una entrada digital puede tener para ser reconocida como un Alto/High/Uno
@@ -34,7 +34,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 ## Pregunta 5: 
 
-	**Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
+**Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
 
 	+ El tiempo de propagación que se puede abreviar como tPD se refiere al tiempo que tarda una señal en viajar a través de un medio de transmisión, como un cable o una guía de ondas, de un punto a otro. El valor exacto de tPD depende de las propiedades del medio.
 
@@ -51,13 +51,14 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 ## Pregunta 6:
 
-	**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
+**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
 
 Fan-out se refiere al número máximo de cargas que una salida digital puede manejar sin afectar el nivel de voltaje 
 de la señal de salida. Es una medida de la fuerza de la unidad de salida de un dispositivo digital y es un parámetro importante en el diseño de circuitos digitales. El fan-out se especifica en términos de la cantidad máxima de cargas equivalentes que puede manejar una salida digital. Una carga equivalente se define como una carga con una impedancia y capacitancia específicas que representa una carga estándar que puede ser impulsada por la salida. En términos prácticos, el fan-out es importante en el diseño de circuitos digitales porque determina cuántas cargas puede manejar una salida digital sin afectar el nivel de voltaje de la señal de salida
 Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transistor Logic) y CMOS (Complementary Metal-Oxide-Semiconductor) pueden variar ampliamente según el dispositivo específico y las condiciones de funcionamiento. Sin embargo, las siguientes son pautas generales para el fan-out en estos dos tipos de circuitos digitales:
 
 > **TTL:** la distribución de los dispositivos TTL suele ser de 10 a 20 cargas. Esto significa que una salida TTL puede controlar de 10 a 20 entradas TTL más sin afectar el nivel de voltaje de la señal de salida. 
+
 > **CMOS:**  la distribución de los dispositivos CMOS suele ser mucho mayor que la de los dispositivos TTL, con valores que van de 50 a 100 o más. Esto se debe al bajo consumo de energía y la alta impedancia de entrada de los dispositivos CMOS, que les permiten manejar muchas más cargas sin afectar el nivel de voltaje de la señal de salida. Los dispositivos CMOS se utilizan ampliamente en circuitos digitales que requieren un bajo consumo de energía y una gran distribución, como los microprocesadores y los circuitos de memoria.
 
 
@@ -77,21 +78,21 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 ## Pregunta 8:
 
-	**Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.**
+**Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.**
 
-	*	1. 74x00: La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-	*	2. 74x02: La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-	*	3. 74x04: La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
-	*	4. 74x14: La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
-	*	5. 4001: El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
-	*	6. 4011: El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
-	*	7. 4069: El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
-	*	8. 40106: El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	1. 74x00: La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	2. 74x02: La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	3. 74x04: La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
+	4. 74x14: La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
+	5. 4001: El 4001 es una puerta NOR cuádruple de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
+	6. 4011: El 4011 es una puerta NAND cuádruple de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+	7. 4069: El 4069 es un búfer de inversión hexadecimal. Proporciona seis amortiguadores de inversión independientes en un solo paquete.
+	8. 40106: El 40106 es un inversor Schmitt-Trigger hexagonal. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
 	
 
 ## Pregunta 9: 
 
-	**Revise la estructura básica, a nivel de transistores, de una compuerta NAND en circuitos integrados CMOS**
+**Revise la estructura básica, a nivel de transistores, de una compuerta NAND en circuitos integrados CMOS**
 
 
 Una compuerta NAND se caracteriza por ser la negación de la compuerta AND; es decir, que cuando el comportamiento AND da como resultado un 1, el NAND lo transforma a un 0.Esto se debe cumplir para la misma combinación de entradas en ambas compuertas. 
@@ -111,7 +112,7 @@ los transistores N se establece en serie; por lo que en los tipo P se conectan e
 	
 ## Pregunta 10: 
 
-	**Investigue sobre el concepto y el uso de los de circuitos pull-up y pull-down en electrónica digital.**
+**Investigue sobre el concepto y el uso de los de circuitos pull-up y pull-down en electrónica digital.**
 
 Las compuertas lógicas se caracterizan por ser dispositivos que necesitan señales constantes, ya que tienen áreas de trabajo. Lo que provoca que cada tecnología sea sensible a cambios en las señales. Se conoce que cada compuerta lógica se desarrolla con configuraciones de transistores, lo que implica que cada uno de estos transistores debe trabajar en sus zonas correctas y así interpretar correctamente la entrada para suposterior salida.
 	
@@ -132,7 +133,7 @@ El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0.
 		
 ## Pregunta 11:
 
-	**Investigue qué es un circuito disparador Schmitt (Schmitt trigger). Revise las características técnicas del circuito 74*14**
+**Investigue qué es un circuito disparador Schmitt (Schmitt trigger). Revise las características técnicas del circuito 74*14**
 
 
 El Circuito Disparador Schmitt consiste en un circuito de entrada lógica; el cual proporciona dos diferentes niveles de voltajes umbral, tanto para las secciones de alto y bajo.Lo que genera una señal con dichos niveles definidos y poco afectada por ruido.
