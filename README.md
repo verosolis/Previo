@@ -179,7 +179,65 @@ La síntesis lógica consiste en el proceso de tomar un diseño en alto nivel e 
 Una FPGA consiste que permite implementar diseños de circuitos digitales descritos en un leguaje de descripción de Hardware, conocidos como HDL. Entre los componentes básicos de una FPGA se encuentran los puertos de entrada y de salida, RAM, relojes, registros, PCI, bloques lógicos combinacionales…
 
 # Referencias
-harris / harrris
-http://www.elecdude.com/2014/07/differences-in-cmos-4000-series-74ls-74hc-74hct.html
-https://www.circuitbasics.com/pull-up-and-pull-down-resistors/
-https://c1555f5ec9.clvaw-cdnwnd.com/34662fcf1f1e607c561442431023ac8e/200006185-95b2196ab9/74HC14%20Datasheet.pdf
+[1] Harris, S. L., & Harris, D. (2021). Digital Design and Computer Architecture, RISC-V Edition. Morgan Kaufmann.
+
+[2] Andrew Moore and Ron Wilson. 2017. FPGAs FOR DUMMIES A WILEY BRAND. 2nd Intel Special Edition. John Wiley Sons, INC. New Jersey,NY, USA.
+
+[3] Unknown.(2014).DIFFERENCES IN CMOS 4000 SERIES,74LS,74HC,74HCT SERIES IC. Elecdude.com [enlace](http://www.elecdude.com/2014/07/differences-in-cmos-4000-series-74ls-74hc-74hct.html)
+
+[4] Braza, J. (2021) Pull-up and pull-down resistors, Circuit Basics.(Accessed: February 11, 2023). Disponoble en: [enlace](https://www.circuitbasics.com/pull-up-and-pull-down-resistors/)
+
+[5] 74HC14; 74HCT14 • JESD8C (2.7 V to 3.6 V) • jesd7a (2.0 ... - nexperia (no date). (Accessed: February 11, 2023). Disponible en: [enlace](https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf )
+
+[6] Herrera, J.P. (s.f) Cuidados de los Dispositivos CMOS.Facultad de Ingenier´ıa en Ciencias
+Aplicadas, Universidad T´ecnica del Norte. Ibarra - Ecuador.
+
+[7] Bonilla, E. Alatorre Miguel and H. Stone, Diseno digital. Mexico: Prentice Hall, 2001.
+
+[8] JEDEC.propagation (delay) time (tdp). JEDEC Global Standards for the Microelectronics
+Industry. Disponible en: [enlance](https://www.jedec.org/standards-documents/dictionary/terms/propagation-delay-time-tpd#:~:text=The%20time%20interval%20between%20specified,to%20the%20other%20defined%20level.)
+
+[9] JEDEC.propagation (delay) time,low-to-high-level output (tPLH). JEDEC Global Standards
+for the Microelectronics Industry. Disponible en: [enlace](https://www.jedec.org/standards-documents/dictionary/terms/propagation-delay-time-low-high-level-output-tplh)
+
+[10] JEDEC.propagation (delay) time,high-to-low-level output (tPHL). JEDEC Global Standards
+for the Microelectronics Industry. Disponible en: [enlace](https://www.jedec.org/standards-documents/dictionary/terms/propagation-delay-time-high-low-level-output-tphl)
+
+[11] JEDEC.transition time (tt). JEDEC Global Standards for the Microelectronics Industry. Disponible en: [enlace](https://www.jedec.org/standards-documents/dictionary/terms/transition-time-tt)
+
+[12] JEDEC.time to failure (in a SWEAT) (tF). JEDEC Global Standards for the Microelectronics
+Industry. Disponible en: [enlace](https://www.jedec.org/standards-documents/dictionary/terms/time-failure-sweat-tf)
+
+[13] TOSHIBA.What is fanout?. Toshiba Elecectronic Devices Storage Corporation. Disponible
+en: [enlace](https://toshiba.semicon-storage.com/ap-en/semiconductor/knowledge/faq/logic_common/logic_common_16.html)
+
+[14] Zachariah Peterson.2019.Todo sobre el retardo de propagaci´on en CMOS, ECL y TTL en
+PCB de alta velocidad.Dise˜no de PCB.Altium. Disponible en [enlace](https://resources.altium.com/es/p/all-about-cmos-ecl-and-ttl-propagation-delay-high-speed-pcbs)
+
+[15] University of Portsmouth.Logic families (TTL, CMOS) .Deparment of Electronic Computer
+Engineering.NanoPDF. Disponible en [enlace](https://nanopdf.com/download/logic-families-ttl-cmos_pdf)
+
+[16] Texas Instruments.(1988). SN7400 DATASHEET TI — QUADRUPLE 2-INPUT POSITIVENAND GATES. Alldatasheet. Recuperado 29 de julio de 2022, Disponible en: [enlace](https://html.alldatasheet.com/html-pdf/27345/TI/SN7400/195/8/SN7400.html)
+
+[17] Texas Instruments.(1988). SN7400 DATASHEET TI — QUADRUPLE 2-INPUT POSITIVENOR GATES. Alldatasheet. Recuperado 29 de julio de 2022, Disponible en: [enlace](https://html.alldatasheet.com/html-pdf/27347/TI/SN7402/20/1/SN7402.html)
+
+[18] Texas Instruments.(1988). SN7404 DATASHEET (1/7 Pages) TI — These devices contain
+six independent inverters. Alldatasheet. Recuperado 29 de julio de 2022 disponible en: [enlace](https://html.alldatasheet.com/html-pdf/27349/TI/SN7404/20/1/SN7404.html)
+
+[19] Texas Instruments.(1988). SN7414 DATASHEET (1/11 Pages) TI — HEX SCHMITTTRIGGER INVERTERS. Alldatasheet. Recuperado 29 de julio de 2022, Disponible en: [enlace](https://html.alldatasheet.com/html-pdf/27364/TI/SN7414/20/1/SN7414.html)
+
+[20] ROHM Semiconductor. (2015). S4001 Datasheet (11/13 Pages) ROHM — N-channel Sic
+power MOSFET bare die. Alldatasheet. Recuperado 29 de julio de 2022. Disponible en: [enlace](https://html.alldatasheet.com/html-pdf/967738/ROHM/S4001/1094/11/S4001.html)
+
+[21] TECCOR Electronics. (2002). S4010D Datasheet (PDF) Alldatasheet. Recuperado 29 de
+Julio de 2022,Disponible en: [enlace](https://www.alldatasheet.com/datasheet-pdf/pdf/26040/TECCOR/S4010D.html)
+
+[22] Texas Instuments.(1988).S4060 Datasheet — 10-Ampere Sensitive-GAte Silicon Controlled
+Rectifiers. Alldatashet. Recuperado 29 de julio de 2022. disponible en: [enlace](https://html.alldatasheet.com/html-pdf/93942/ETC/S4060/44/1/S4060.html)
+
+[23] Texas Instruments.(1988). 40106 DATASHEET TI — CMOS Hex Schmitt Triggers. Alldatasheet. Recuperado 29 de julio de 2022, Disponible en: [enlace](https://html.alldatasheet.com/html-pdf/834389/TI1/40106/52/1/40106.html)
+
+[24] Kathri P.What is Switch Bouncing and How to prevent it using Debounce Circuit. Circuit
+Digest. Disponible en: [ enlace](https://circuitdigest.com/electronic-circuits/what-is-switch-bouncing-and-how-to-prevent-it-using-debounce-circuit)
+
+[25] Palnitkar S. A guide to Digital Design and Synthesis.Sunsoft Press,1996.pp 61-63,115-156.
