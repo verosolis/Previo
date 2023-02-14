@@ -62,6 +62,7 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 
 |TTL |CMOS|
+|----|----|
 |VCC o VDD|5 V|3-18 V|
 |VSS|0 V|0 V|
 
