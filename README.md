@@ -130,11 +130,11 @@ imagen de
 	
 El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0. Lo que permite un valor de 1 cuando el switch se cierra. Pues lo aproxima al valor de Vin.
 
-|![pullUP](/cuestionario/pullUP.jpg)|
+|![pullUP](/cuestionario/pullUP.jpg|width=10)|
 |----|
 |Pull-UP Circuit|
 
-|![pullDown](/cuestionario/pullUDown.jpg)|
+|![pullDown](/cuestionario/pullDown.jpg|width=10)|
 |-----|
 |Pull-Down Circuit|
 	
@@ -151,9 +151,6 @@ Ambas configuraciones permiten que dispositivos como Arduinos o FPGAs sean capac
 El Circuito Disparador Schmitt consiste en un circuito de entrada lógica; el cual proporciona dos diferentes niveles de voltajes umbral, tanto para las secciones de alto y bajo.Lo que genera una señal con dichos niveles definidos y poco afectada por ruido.
 	
 Para las características técnicas del circuito 74x14, se toma como referencia la compuerta inversora 74HC14. Esta utiliza el circuito de Schmitt para entablar los niveles y que las señales no se intervcalen entre los niveles lógicos TTL del dispositivo. Además de eliminar la adhesión de ruido a la misma señal tratada. 
-	
-	
-	https://c1555f5ec9.clvaw-cdnwnd.com/34662fcf1f1e607c561442431023ac8e/200006185-95b2196ab9/74HC14%20Datasheet.pdf
 	
 	
 ## Pregunta 12: 
