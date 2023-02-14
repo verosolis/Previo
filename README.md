@@ -1,8 +1,8 @@
 # Cuestionario Previo
 
-##Pregunta 1 
-	**Investigue las características de las familias TTL bajo las series 74∗xx en particular las
-diferencias entre las variantes ∗ ∈ {L, LS y HC}.**
+##Pregunta 1:
+
+	**Investigue las características de las familias TTL bajo las series 74∗xx en particular las diferencias entre las variantes ∗ ∈ {L, LS y HC}.**
 
  Es una familia de circuitos integrados transistor-transistor lógicos, el cual por su bajo costo gano mucha popularidad en el mercado y en el grado militar. Estos al paso de los anos dieron el paso a incluir el soporte de  tecnología CMOS de bajo consumo. En tiempos más actuales, son usados comúnmente por su facilidad de montar en una breadboard, lo cual lo vuelve un excelente candidato para estudiantes. La serie 7400 contiene cientos de compuertas lógicas básicas, flip-flops y hasta ALU.
 La principal diferencia entre los 74L y 74LS es que el Low-power shotcky, es el más bajo consumo y velocidades más rápidas y que el 74L es una tecnología obsoleta, sin embargo, el 74HC es un CMOS de más velocidad y menor consumo, aparte de ser más nuevo.
@@ -16,12 +16,12 @@ La familia CMOS 4000 tiene un supply de 3 a 15V, donde sus entradas son de alta 
 Tiene un output pequeño de alrededor de 1mA, esto para mantener un outup de voltaje correcto para manejar el input, pero si esto no necesario, su máximo es de 5mA con un suministro de 6V o 10mA a 9V. Posee Fan-out de hasta 50 inputs y un tiempo de propagación en el gate de 30ns con una entrada de 9V. Su frecuencia va hasta 1MHz y su consumo en baja frecuencias esta en los µW, mientras que a altas frecuencias se ubica en los mW.
 
 ##Pregunta 3:
-**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
+	**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
 
 Al manipular estos dispositivos tenemos que tener en cuenta: protección electroestática (ESD protection), si vamos a manejar estos dispositivos que el suministro este apagado para prevenir danos por pico eléctricos o cortos, que los dispositivos estén limpios ya que son susceptibles a la contaminación, esto va de mano con un buen manejo al empacarlos y guardarlos, que sea en lugares no húmedos, tener cuidado con los pines ya que esto puede dañarlo por completo y cuidar la exposición al calor, ya que esto puede reducir la vida útil del dispositivo.
 
 #Pregunta 4: 
-**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
+	**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
 	+ VIL: Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
 	+ VIH: High-Level Input Voltage, es el máximo voltaje que una entrada digital puede tener para ser reconocida como un Alto/High/Uno
@@ -30,7 +30,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 	+IIK e IOK: No aparece información en la literatura o en el internet acerca de IOK o el IIK. Sin embargo, podemos tomarlos como, IIL (Low-Level Input Current) y IIH (High-Level Input Current) son el mínimo y el máximo de corriente, respectivamente, que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno. También, IOL (Low-Level Output Current) y IOH (High-Level Output Current) son el mínimo y el máximo de corriente, respectivamente, que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno.
 
 ## Pregunta 5: 
-**Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
+	**Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
 
 	+ El tiempo de propagación que se puede abreviar como tPD se refiere al tiempo que tarda una señal en viajar a través de un medio de transmisión, como un cable o una guía de ondas, de un punto a otro. El valor exacto de tPD depende de las propiedades del medio.
 
@@ -46,7 +46,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 
 ##Pregunta 6:
-**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
+	**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
 
 Fan-out se refiere al número máximo de cargas que una salida digital puede manejar sin afectar el nivel de voltaje 
 de la señal de salida. Es una medida de la fuerza de la unidad de salida de un dispositivo digital y es un parámetro importante en el diseño de circuitos digitales. El fan-out se especifica en términos de la cantidad máxima de cargas equivalentes que puede manejar una salida digital. Una carga equivalente se define como una carga con una impedancia y capacitancia específicas que representa una carga estándar que puede ser impulsada por la salida. En términos prácticos, el fan-out es importante en el diseño de circuitos digitales porque determina cuántas cargas puede manejar una salida digital sin afectar el nivel de voltaje de la señal de salida
@@ -61,8 +61,11 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 
 |	TTL |	CMOS	|
+|-----------------------------|
 |	VCC o VDD	|	5 V	|	3-18 V	|
+|-----------------------------|
 |	VSS	|0 V	|	0 V	|
+|-----------------------------|
 
 
 Tiempo de propagación 
