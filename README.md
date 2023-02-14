@@ -130,11 +130,11 @@ imagen de
 	
 El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0. Lo que permite un valor de 1 cuando el switch se cierra. Pues lo aproxima al valor de Vin.
 
-|![pullUP](/cuestionario/pullUP.jpg|width=10)|
+|![pullUP](/cuestionario/pullUP.jpg | width=10)|
 |----|
 |Pull-UP Circuit|
 
-|![pullDown](/cuestionario/pullDown.jpg|width=10)|
+|![pullDown](/cuestionario/pullDown.jpg | width=10)|
 |-----|
 |Pull-Down Circuit|
 	
