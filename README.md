@@ -10,17 +10,20 @@ La principal diferencia entre los 74L y 74LS es que el Low-power shotcky, es el 
 
 
 ##Pregunta 2:
+
 	**Investigue las características de la familia CMOS 4000.**
  
 La familia CMOS 4000 tiene un supply de 3 a 15V, donde sus entradas son de alta impedancia.
 Tiene un output pequeño de alrededor de 1mA, esto para mantener un outup de voltaje correcto para manejar el input, pero si esto no necesario, su máximo es de 5mA con un suministro de 6V o 10mA a 9V. Posee Fan-out de hasta 50 inputs y un tiempo de propagación en el gate de 30ns con una entrada de 9V. Su frecuencia va hasta 1MHz y su consumo en baja frecuencias esta en los µW, mientras que a altas frecuencias se ubica en los mW.
 
 ##Pregunta 3:
+
 	**Investigue que cuidados deben tenerse al manipular las tecnologías CMOS**
 
 Al manipular estos dispositivos tenemos que tener en cuenta: protección electroestática (ESD protection), si vamos a manejar estos dispositivos que el suministro este apagado para prevenir danos por pico eléctricos o cortos, que los dispositivos estén limpios ya que son susceptibles a la contaminación, esto va de mano con un buen manejo al empacarlos y guardarlos, que sea en lugares no húmedos, tener cuidado con los pines ya que esto puede dañarlo por completo y cuidar la exposición al calor, ya que esto puede reducir la vida útil del dispositivo.
 
 #Pregunta 4: 
+
 	**Investigue el significado de los parámetros VIL, VIH, VOL, VOH, IIK, IOK**
 
 	+ VIL: Low-Level Input voltage, es el mínimo voltaje que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero
@@ -30,6 +33,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 	+IIK e IOK: No aparece información en la literatura o en el internet acerca de IOK o el IIK. Sin embargo, podemos tomarlos como, IIL (Low-Level Input Current) y IIH (High-Level Input Current) son el mínimo y el máximo de corriente, respectivamente, que una entrada digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno. También, IOL (Low-Level Output Current) y IOH (High-Level Output Current) son el mínimo y el máximo de corriente, respectivamente, que una salida digital puede tener para ser reconocida como un Bajo/Low/Cero y Alto/High/Uno.
 
 ## Pregunta 5: 
+
 	**Investigue qué son los tiempos de propagación tPD, tPLH y tPHL y los tiempos de transición tt , tr y tf .**
 
 	+ El tiempo de propagación que se puede abreviar como tPD se refiere al tiempo que tarda una señal en viajar a través de un medio de transmisión, como un cable o una guía de ondas, de un punto a otro. El valor exacto de tPD depende de las propiedades del medio.
@@ -46,6 +50,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 
 ##Pregunta 6:
+
 	**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
 
 Fan-out se refiere al número máximo de cargas que una salida digital puede manejar sin afectar el nivel de voltaje 
@@ -57,6 +62,7 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 
 ##Pregunta 7:
+
 **Para cada una de las variantes TTL y CMOS especifique en una tabla: a) rango de tensión eléctrica de alimentación VCC o VDD, VSS b) rango de tensiones de entrada y salida c) tiempos de propagación y transición **
 
 
@@ -65,14 +71,9 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 |----|----|
 |VCC o VDD|5 V|3-18 V|
 |VSS|0 V|0 V|
+|Tiempo de propagación (tPD)|En el rango de varios nanosegundos a decenas de nanosegundos| En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos|
 
-
-
-Tiempo de propagación 
-(tPD)	En el rango de varios nanosegundos a decenas de nanosegundos	En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos
-
-Tiempo de transición 
-(tt)	En el rango de varios nanosegundos a decenas de nanosegundos	En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos
+Tiempo de transición (tt)| En el rango de varios nanosegundos a decenas de nanosegundos |En el rango de varias decenas de nanosegundos a varias centenas de nanosegundos|
 
 
 8. Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.
