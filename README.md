@@ -112,7 +112,9 @@ En cuanto a la tecnología CMOS y las compuertas NAND, su estructura para dos en
 se caracteriza por componerse de dos transistores tipo N y dos tipo P. La configuración entre
 los transistores N se establece en serie; por lo que en los tipo P se conectan en paralelo. Lo que permite que los Pull-Down de los transistores N se activen y los Pull-Up de los P se anulen, solo cuando se tiene entradas con valores en 1.
 	
-![pullUP](/cuestionario/pic1.jpg)
+|![nand](/cuestionario/pic1.jpg)|
+|---|
+|NAND Gate Circuit|
 	
 	
 ## Pregunta 10: 
@@ -128,9 +130,13 @@ imagen de
 	
 El circuito Pull-down por su parte, mantiene su entrada cercana a el valor de 0. Lo que permite un valor de 1 cuando el switch se cierra. Pues lo aproxima al valor de Vin.
 
-![pullUP](/cuestionario/pullUP.jpg)
+|![pullUP](/cuestionario/pullUP.jpg)|
+|----|
+|Pull-UP Circuit|
 
-![pullDown](/cuestionario/pullUDOWN.jpg)	
+|![pullDown](/cuestionario/pullUDown.jpg)|
+|-----|
+|Pull-Down Circuit|
 	
 	
 Ambas configuraciones permiten que dispositivos como Arduinos o FPGAs sean capaces de comunicarse con periféricos, y de una forma estable entre valores constantes de señales en alto o bajo.
