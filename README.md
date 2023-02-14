@@ -55,7 +55,7 @@ Al manipular estos dispositivos tenemos que tener en cuenta: protección electro
 
 ## Pregunta 6:
 
-**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS. **
+**Investigue qué significa el término fan-out y cuales valores típicos se encuentran en las familias TTL y CMOS.**
 
 Fan-out se refiere al número máximo de cargas que una salida digital puede manejar sin afectar el nivel de voltaje 
 de la señal de salida. Es una medida de la fuerza de la unidad de salida de un dispositivo digital y es un parámetro importante en el diseño de circuitos digitales. El fan-out se especifica en términos de la cantidad máxima de cargas equivalentes que puede manejar una salida digital. Una carga equivalente se define como una carga con una impedancia y capacitancia específicas que representa una carga estándar que puede ser impulsada por la salida. En términos prácticos, el fan-out es importante en el diseño de circuitos digitales porque determina cuántas cargas puede manejar una salida digital sin afectar el nivel de voltaje de la señal de salida
