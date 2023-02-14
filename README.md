@@ -84,7 +84,7 @@ Los valores típicos de fan-out en circuitos digitales TTL (Transistor-Transisto
 
 **Revise la hoja de datos de los circuitos integrados 74∗00,74∗02,74∗04,74∗14, 4001, 4011, 4069 y 40106. Resuma para qué sirve cada uno.**
 
-	1. **74x00:** La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
+1.	*74x00:*	 La serie 74x00 es una familia de compuertas NAND cuádruples de dos entradas. Proporciona cuatro puertas NAND independientes de dos entradas en un solo paquete.
 	2. **74x02:** La serie 74x02 es una familia de compuertas NOR cuádruples de dos entradas. Proporciona cuatro puertas NOR independientes de dos entradas en un solo paquete.
 	3. **74x04:** La serie 74x04 es una familia de inversores hexagonales. Proporciona seis inversores independientes en un solo paquete.
 	4. **74x14:** La serie 74x14 es una familia de inversores hexagonales Schmitt-Trigger. Proporciona seis inversores Schmitt-Trigger independientes en un solo paquete.
