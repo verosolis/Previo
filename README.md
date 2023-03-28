@@ -1,6 +1,5 @@
 # Cuestionario previo laboratorio 3
-## 1.Investigue sobre la especificación de la interfaz SPI. Preste atención a los aspectos necesarios
-para poder diseñar un controlador maestro de SPI, además de los diferentes modos de SPI
+## 1.Investigue sobre la especificación de la interfaz SPI. Preste atención a los aspectos necesarios para poder diseñar un controlador maestro de SPI, además de los diferentes modos de SPI
 
 
  La interfaz SPI, Serial Peripherical Interface, consiste en un estándar de comunicación síncrono entre un dispositivo denominado como maestro y otros denominados esclavos.
@@ -16,10 +15,7 @@ Diagramas de los dos tipos principales de conexión SPI [1]
 
 El tipo de conexión dependerá de la capacidad del dispositivo maestro para generar distintas señales individuales de Chip Select.
 
-## 2.Investigue sobre la comunicación serie UART. Preste atención a las diferentes características
-de configuración necesarias para la comunicación serie mediante UART (por ejemplo, baud
-rate, paridad, etc). Además, investigue cómo puede utilizar puertos serie en su computadora,
-considerando el sistema operativo que utilice.
+## 2.Investigue sobre la comunicación serie UART. Preste atención a las diferentes características de configuración necesarias para la comunicación serie mediante UART (por ejemplo, baud rate, paridad, etc). Además, investigue cómo puede utilizar puertos serie en su computadora, considerando el sistema operativo que utilice.
 
 El protocolo de comunicación serie UART (Universal Asynchronous Receiver/Transmitter), utiliza dos líneas, recepción y transmisión para comunicar dos dispositivos.
 Entre las principales características de este protocolo se encuentran:
