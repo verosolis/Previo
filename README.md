@@ -31,7 +31,7 @@ Entre las principales características de este protocolo se encuentran:
 
 Diagrama de conexión de dispositivos UART [3]
 
-En las computadoras suelen utilizarse puertos de comunicación seerie. como USB, RS-232,SATA,PCIe... Generalmente para conectar periféricos.
+En las computadoras suelen utilizarse puertos de comunicación serie como USB, RS-232,SATA,PCIe... Para conectar periféricos como teclados, mouse, monitor... Para configurar la conexión de dispositivos que utilicen comunicación serial se suele utilizar la terminal, aunque tambipen existe software como Putty que se puede utilziar tanto en Windows como en Múltiples sistemas Unix.
 
 Referencias
 [1] Pini A. 2019. Por qué y cómo usar la interfaz periférica serial para simplifi-
@@ -44,3 +44,5 @@ https://www.analog.com/en/analog-dialogue/articles/introduction-to-spi-interface
 
 [3] Peña E., Legaspi M. N.A.UART: A Hardware Communication Protocol Understanding Universal Asynchronous Receiver/Transmitter. Access on: march,27,2023.Available:
 https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
+
+[4] Chipkin. N.A. Using PuTTY for serial COM connections (HyperTerminal replacement). Access on: march,27,2023. Available on: https://store.chipkin.com/articles/using-putty-for-serial-com-connections-hyperterminal-replacement
