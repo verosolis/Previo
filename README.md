@@ -33,7 +33,8 @@ Diagrama de conexión de dispositivos UART [3]
 
 En las computadoras suelen utilizarse puertos de comunicación serie como USB, RS-232,SATA,PCIe... Para conectar periféricos como teclados, mouse, monitor... Para configurar la conexión de dispositivos que utilicen comunicación serial se suele utilizar la terminal, aunque tambipen existe software como Putty que se puede utilziar tanto en Windows como en Múltiples sistemas Unix.
 
-Referencias
+##Referencias
+
 [1] Pini A. 2019. Por qué y cómo usar la interfaz periférica serial para simplifi-
 car las conexiones entre distintos dispositivos. Access on : march,27,2023.Available:
 https://www.digikey.com/es/articles/why-how-to-use-serial-peripheral-interface-simplify-
