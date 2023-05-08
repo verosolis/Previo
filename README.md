@@ -24,9 +24,10 @@ Donde se tienen los siguientes módulos:
 
 Con base en la descripción del funcionamiento del sistema se desarrolló el siguiente diagrama de estados:
 
-![Diseño_lab4_1s2023](https://user-images.githubusercontent.com/99456315/236822292-771d048c-4e65-4500-8ca5-b2feb6145bf3.jpg)
 
+![Diseño_lab4_1s2023](https://user-images.githubusercontent.com/99456315/236823336-60bf974e-d228-4f38-87a9-b59ff23a7386.jpg)
 
+Diagrama de Estados del funcionamiento del Microcontrolador
 
 ## Referencias Bibliográficas
 1.  Harris & Harris
