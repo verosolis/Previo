@@ -1,49 +1,33 @@
-# Cuestionario previo laboratorio 3
-## 1.Investigue sobre la especificación de la interfaz SPI. Preste atención a los aspectos necesarios para poder diseñar un controlador maestro de SPI, además de los diferentes modos de SPI
+# Porpuesta de diseño Laboratorio 4
+## 4.2 Microcontrolador RISC V
+
+Para el desarrollo del microcontroaldor, se tomará como base el diseño de un procesador uniciclo presentado en el libro Digital Design and Computer Architecture RISC V Edition:
 
 
- La interfaz SPI, Serial Peripherical Interface, consiste en un estándar de comunicación síncrono entre un dispositivo denominado como maestro y otros denominados esclavos.
- El dispositivo maestro controla la comunicación con los esclavos, permitiéndole enviar o recibir información, utilizando las líneas MOSI(Master Out, Slave In) y MISO (Master In, Slave Out) y Chip Select. Además, se utiliza una señal de reloj para sincronizar los datos.
+
+![Diseño_lab4_1s2023](https://user-images.githubusercontent.com/99456315/236791063-e1140dd6-b4d0-4a44-b722-7aec50a2edf7.jpg)
+
+Esquemático de un procesador uniciclo. [1]
+
+Donde se tienen los siguientes módulos:
+* Program Counter: Módulo encargado de controlar la ejecución de las instrucciones, conteniendo el valor de la dirección en memoria de la instrucción a ejecutar.
+* Sumadores: Estos se encargan de incrementar el valor del Program Counter, según las instrucciones.
+* Memoria de datos: Aquí se almacenan los valores de los periféricos como LEDS, 7 Segmentos y switches, así como los registros de control y de datos de cada puerto de comunicación UART.
+* Memoria de Instrucciones: Aquí se almacenan las instrucciones a ejecutar por el programa en ensamblador RISC-V encargado de controlar el micrcontrolador.
+* Register File: Es un banco de registros que se utilizan para almacenar datos de memoria a utilizar en las distintas operaciones, así como almacenar los resultados de las mismas antes de pasar a memoria.
+*  ALU: Unidad aritmético-lógica, encargada de realizar operaciones como suma, resta,and, or, logical shift...
+* Multiplexores: Encargados de seleccionar entre dos posibles datos, según las unidades de control.
+* Unidad de Control: 
+* Unidad de Control de la ALU:
+## 4.3  Periféricos
+## 4.4 y 4.5 Aplicación y programa de ensamblador
+
+Con base en la descripción del funcionamiento del sistema se desarrolló el siguiente diagrama de estados:
+
+![Diseño_lab4_1s2023](https://user-images.githubusercontent.com/99456315/236822292-771d048c-4e65-4500-8ca5-b2feb6145bf3.jpg)
+
+
+
+## Referencias Bibliográficas
+1.  Harris & Harris
  
- Existen dos formas principales de realizar las conexiones entre los dispositivos en un sistema SPI. En el modo directo se cuentan con las 4 línea anteriormente mencionada, estando todos los esclavos conectados en paralelo a las líneas de reloj,MOSI y MISO, mientras cada uno cuenta con un Chip Select individual. También existe el modo conocido como Daisy Chain, donde los dispositivos esclavos se conectan en cascada, compartiendo las líneas de reloj y Chip Select.
- 
- 
- 
- ![SPI](https://user-images.githubusercontent.com/99456315/228150246-fd4b7c5e-8697-47f4-a37a-e0d74db4d4f4.jpg)
-
-Diagramas de los dos tipos principales de conexión SPI [1]
-
-El tipo de conexión dependerá de la capacidad del dispositivo maestro para generar distintas señales individuales de Chip Select.
-
-## 2.Investigue sobre la comunicación serie UART. Preste atención a las diferentes características de configuración necesarias para la comunicación serie mediante UART (por ejemplo, baud rate, paridad, etc). Además, investigue cómo puede utilizar puertos serie en su computadora, considerando el sistema operativo que utilice.
-
-El protocolo de comunicación serie UART (Universal Asynchronous Receiver/Transmitter), utiliza dos líneas, recepción y transmisión para comunicar dos dispositivos.
-Entre las principales características de este protocolo se encuentran:
-
-* Comunicación asíncrona y bidireccional.
-
-*Ambos dispositivos deben configurarse para que trabajen a la misma cantidad de baudios, normalmente entre 300 y 1150k.
-
-* La trama de bits se conforma por un bit de inicio, de 5 a 9 bits de información, un bit de paridad y un bit de finalización. El bit de pardidad indica si el canal modificó la información durante la transmisión
-
-
-![UART](https://user-images.githubusercontent.com/99456315/228155548-c59963b4-e956-44c7-9187-098c8393c80f.jpg)
-
-Diagrama de conexión de dispositivos UART [3]
-
-En las computadoras suelen utilizarse puertos de comunicación serie como USB, RS-232,SATA,PCIe... Para conectar periféricos como teclados, mouse, monitor... Para configurar la conexión de dispositivos que utilicen comunicación serial se suele utilizar la terminal, aunque tambipen existe software como Putty que se puede utilziar tanto en Windows como en Múltiples sistemas Unix.
-
-##Referencias
-
-[1] Pini A. 2019. Por qué y cómo usar la interfaz periférica serial para simplifi-
-car las conexiones entre distintos dispositivos. Access on : march,27,2023.Available:
-https://www.digikey.com/es/articles/why-how-to-use-serial-peripheral-interface-simplify-
-connections-between-multiple-devices
-
-[2] Dhaker P. S.F. Introduction to SPI Interface. Access on : march,27,2023.Available:
-https://www.analog.com/en/analog-dialogue/articles/introduction-to-spi-interface.html
-
-[3] Peña E., Legaspi M. N.A.UART: A Hardware Communication Protocol Understanding Universal Asynchronous Receiver/Transmitter. Access on: march,27,2023.Available:
-https://www.analog.com/en/analog-dialogue/articles/uart-a-hardware-communication-protocol.html
-
-[4] Chipkin. N.A. Using PuTTY for serial COM connections (HyperTerminal replacement). Access on: march,27,2023. Available on: https://store.chipkin.com/articles/using-putty-for-serial-com-connections-hyperterminal-replacement
