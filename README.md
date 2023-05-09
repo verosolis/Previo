@@ -17,9 +17,13 @@ Donde se tienen los siguientes módulos:
 * Register File: Es un banco de registros que se utilizan para almacenar datos de memoria a utilizar en las distintas operaciones, así como almacenar los resultados de las mismas antes de pasar a memoria.
 *  ALU: Unidad aritmético-lógica, encargada de realizar operaciones como suma, resta,and, or, logical shift...
 * Multiplexores: Encargados de seleccionar entre dos posibles datos, según las unidades de control.
-* Unidad de Control: 
-* Unidad de Control de la ALU:
+* Unidad de Control: esta unidad de control debe ser capaz de inicializar la unidad de control del ALU, la interface del UART y sincronizar escrituras y lecturas entre memorias y periféricos después de haber realizado cualquier instrucción.
+* Unidad de Control de la ALU: al tratarse del controlador del ALU, este debe ser capaz de habilitar las escrituras,  lecturas y asignación de los operaciones por realizar. Entre ellas addi,subi, load o store.
+
+
 ## 4.3  Periféricos
+ 
+
 ## 4.4 y 4.5 Aplicación y programa de ensamblador
 
 Con base en la descripción del funcionamiento del sistema se desarrolló el siguiente diagrama de estados:
@@ -38,9 +42,20 @@ Con esto en mente, se tiene un diagrama de flujo para el programa, con esto se t
 ![flujo_app](https://user-images.githubusercontent.com/76532945/236990700-f7e69d51-aa70-4c63-9fed-756ea8c9e23e.png)
 
 
+En cuanto al programa por elaborar, se debe implementar basasndose en las isntrucciones RISCVi; por lo que la siguiente lista  determina que al menos una de cada instruccióin deberá ejecutarse dentro del programa.
+
++ addi
++ lui
++ andi
++ ori
++ xori
++ slli
++ srli
++ srai
++ jal
 
 ## Referencias Bibliográficas
-1.  Harris & Harris
+1.  Harris, S. L., & Harris, D. (2021). Digital Design and Computer Architecture, RISC-V Edition. Morgan Kaufmann.
 2.  Liechti,C. pySerial 3.0 Documentation. disponible en : https://pythonhosted.org/pyserial/
 3.  Diwan, A.(20 de Sep, 2023).  How do I access the serial (RS232) port in Python?. tutorialspoint. Disponible en : https://www.tutorialspoint.com/how-do-i-access-the-serial-rs232-port-in-python 
  
