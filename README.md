@@ -29,6 +29,18 @@ Con base en la descripción del funcionamiento del sistema se desarrolló el sig
 
 Diagrama de Estados del funcionamiento del Microcontrolador
 
+
+Para la aplicación en Python, se tomo como referencia [2] y [3]. En ambas, se menciona y detalla el uso de la libreria pyserial. Este es el método que se utilizará para la comunicación entre la PC y el módulño FPGA que sea conectado a este.
+
+
+Con esto en mente, se tiene un diagrama de flujo para el programa, con esto se tiene presente las actividades y condiciones principales por considerar.
+
+![flujo_app](https://user-images.githubusercontent.com/76532945/236990700-f7e69d51-aa70-4c63-9fed-756ea8c9e23e.png)
+
+
+
 ## Referencias Bibliográficas
 1.  Harris & Harris
+2.  Liechti,C. pySerial 3.0 Documentation. disponible en : https://pythonhosted.org/pyserial/
+3.  Diwan, A.(20 de Sep, 2023).  How do I access the serial (RS232) port in Python?. tutorialspoint. Disponible en : https://www.tutorialspoint.com/how-do-i-access-the-serial-rs232-port-in-python 
  
